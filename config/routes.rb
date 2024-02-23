@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get "/krys", controller: "example_pages", action: "krys_method"
   get "/juan", controller: "example_pages", action: "juan_method"
   get "/manu", controller: "example_pages", action: "manu_method"
+  get "/time", controller: "example_pages", action: "time_method"
 end

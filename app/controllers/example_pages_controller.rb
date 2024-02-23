@@ -10,4 +10,8 @@ class ExamplePagesController < ApplicationController
   def manu_method
     render json: { message: "meow :3" }
   end
+
+  def time_method
+    render json: { time: Time.now.strftime("%A, %b %d, %I:%M:%S %p") }
+  end
 end
